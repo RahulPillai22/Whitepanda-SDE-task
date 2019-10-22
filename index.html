@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WhitepandaSDEtask</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class='row clearfix'>
+				<a href ="#"><img src="images/Logo1.png" class="logo"></a>
+
+				<ul class= "main-nav animated slideInDown" id="check-class">
+					<li><a href ="#"><img src="images/Noti1.png" class="logo1"></a></li>
+					<li><a href ="#"><img src="images/accnt1.png" class="logo2"></a></li>	
+				</ul>
+				<a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i> </a>
+			</div>
+		</nav>
+
+		<div class="main-content-header">
+			<h1 ><span class="colorchange">Content Store</span><br></h1>
+
+		</div>
+		<div class="sub-content-header">
+			<h3>Got bulk orders or almost similar orders? Fill the order brief in an excel sheet</h3>
+			<a href="#" class="btn btn-full">Order via Excel Sheet</a>
+		</div>
+		<div class="social">
+			<div class="copyright">
+				Copyright @ 2019 xyz<br>
+					  All rights reserved
+			</div>
+			<div class="icons">
+				<ul class="socicon">
+			    	<li><a href="#"><img src="images/twit.png" class="twit"></a></li>
+	  				<li><a href="#"><img src="images/linkdn.png" class="linkdn"></a></li>
+	  				<li><a href="#"><img src="images/insta.png" class="insta"></a></li>
+	  				<li><a href="#"><img src="images/fb.png" class="fb"></a></li>
+	  			</ul>
+			</div>
+
+		</div>
+		<div class="products">
+			<div class="col1">
+				<ul>
+					<li><a href="#"><img src="images/blog.png" class="col1i"></a></li>
+					<li><a href="#"><img src="images/ebook.png" class="col1i"></a></li>
+					<li><a href="#"><img src="images/press release.png" class="col1i"></a></li>
+					<li><a href="#"><img src="images/report guide.png" class="col1i"></a></li>
+					<li><a href="#"><img src="images/webContent.png" class="col1i"></a></li>
+				</ul>
+			</div>
+			<div class="col2">
+				<ul>
+					<li><a href="#"><img src="images/Brochure.png" class="col2i"></a></li>
+					<li><a href="#"><img src="images/newsletter emailer.png" class="col2i"></a></li>
+					<li><a href="#"><img src="images/product desc.png" class="col2i"></a></li>
+					<li><a href="#"><img src="images/video script.png" class="col2i"></a></li>
+					<li><a href="#"><img src="images/whitepaper.png" class="col2i"></a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="sidenav">
+	  <li><a href="#a" id="a" class="click1"><img src="images/SidebarLogoSquares.png" class="logo3"></a></li>
+	  <li><a href="#b" id="b" class="click2"><img src="images/SidebarLogoSearch.png" class="logo4"></a></li>
+	  <li><a href="#c" id="c" class="click3"><img src="images/SidebarLogoStore.png" class="logo5"></a></li>
+	</div>
+	<script type="text/javascript">
+		
+		function slideshow(){
+			var x = document.getElementById('check-class');
+			if(x.style.display === "none"){
+				x.style.display="block";
+			}else{
+				x.style.display="none";
+			}
+		}
+
+	</script>
+
+</body>
+</html>
